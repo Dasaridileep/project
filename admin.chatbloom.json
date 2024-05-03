@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaa7"
+  },
+  "const": "const",
+  "express": "path",
+  "=": "=",
+  "require(\"express\");": "require(\"path\");"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaa8"
+  },
+  "const": "const",
+  "express": "http",
+  "=": "=",
+  "require(\"express\");": "require(\"http\");"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaa9"
+  },
+  "const": "const",
+  "express": "socketIo",
+  "=": "=",
+  "require(\"express\");": "require(\"socket.io\");"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaaa"
+  },
+  "const": "const",
+  "express": "mongoose",
+  "=": "=",
+  "require(\"express\");": "require('mongoose');"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaab"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaac"
+  },
+  "const": "const",
+  "express": "app",
+  "=": "=",
+  "require(\"express\");": "express();"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaad"
+  },
+  "const": "const",
+  "express": "server",
+  "=": "=",
+  "require(\"express\");": "http.createServer(app);"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaae"
+  },
+  "const": "const",
+  "express": "io",
+  "=": "=",
+  "require(\"express\");": "socketIo(server);"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaaf"
+  },
+  "const": "mongoose.connect('mongodb+srv://Dileep:dileep123@cluster0.gdwvcpv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab0"
+  },
+  "const": ".then(()=>",
+  "express": "console.log('Connected",
+  "=": "to",
+  "require(\"express\");": "MongoDB'))"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab1"
+  },
+  "const": ".catch(err=>",
+  "express": "console.log('Error",
+  "=": "connectiong",
+  "require(\"express\");": "to"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab6"
+  },
+  "const": "app.use(express.static(path.join(__dirname,",
+  "express": "/public\")));\r\n\r\nio.on(\"connection\", function(socket) {\r\n    socket.on(\"newuser\", function(username) {\r\n        io.emit(\"update\", username + ",
+  "=": "joined",
+  "require(\"express\");": "the"
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab7"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab8"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbab9"
+  }
+},
+{
+  "_id": {
+    "$oid": "6629d5bd34f75d92c6adbaba"
+  }
+}]
